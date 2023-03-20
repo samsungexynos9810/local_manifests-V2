@@ -13,7 +13,7 @@
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen-slsi-omx" />
 
-<remote name="exydev-slsi-decom"
+<remote name="exydev-slsi-decon"
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen-slsi-decon" />
 

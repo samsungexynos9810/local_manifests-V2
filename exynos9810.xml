@@ -31,6 +31,7 @@
 
   <!-- SLSI -->
   <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="exydev-slsi"/>
+  <project name="hardware_samsung_slsi" path="hardware/samsung_slsi" remote="exydev"/>
   
   <!-- Kernel -->
   <project name="kernel_samsung_exynos9810-V2" path="kernel/samsung/exynos9810" remote="exydev-slsi-decon"/>

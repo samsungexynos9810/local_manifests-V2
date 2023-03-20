@@ -1,26 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="edsheeran"
+<remote name="exydev"
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen" />
 
+<remote name="exydev-slsi"
+          fetch="https://github.com/samsungexynos9810"
+          revision="thirteen-slsi" />
+
+<remote name="exydev-slsi-omx"
+          fetch="https://github.com/samsungexynos9810"
+          revision="thirteen-slsi-omx" />
+
+<remote name="exydev-slsi-decom"
+          fetch="https://github.com/samsungexynos9810"
+          revision="thirteen-slsi-decon" />
+
   <!--Device tree-->
-  <project name="device_samsung_exynos9810-common-V2" path="device/samsung/exynos9810-common" remote="edsheeran"/>
-  <project name="device_samsung_starlte-V2" path="device/samsung/starlte" remote="edsheeran"/>
-  <project name="device_samsung_star2lte-V2" path="device/samsung/star2lte" remote="edsheeran"/>
-  <project name="device_samsung_crownlte-V2" path="device/samsung/crownlte" remote="edsheeran"/>
+  <project name="device_samsung_exynos9810-common-V2" path="device/samsung/exynos9810-common" remote="exydev-slsi-omx"/>
+  <project name="device_samsung_starlte-V2" path="device/samsung/starlte" remote="exydev"/>
+  <project name="device_samsung_star2lte-V2" path="device/samsung/star2lte" remote="exydev"/>
+  <project name="device_samsung_crownlte-V2" path="device/samsung/crownlte" remote="exydev"/>
 
   <!-- Vendor -->
-  <project name="vendor_samsung_exynos9810-common-V2" path="vendor/samsung/exynos9810-common" remote="edsheeran"/>
-  <project name="vendor_samsung_starlte-V2" path="vendor/samsung/starlte" remote="edsheeran"/>
-  <project name="vendor_samsung_star2lte-V2" path="vendor/samsung/star2lte" remote="edsheeran"/>
-  <project name="vendor_samsung_crownlte-V2" path="vendor/samsung/crownlte" remote="edsheeran"/>
+  <project name="vendor_samsung_exynos9810-common-V2" path="vendor/samsung/exynos9810-common" remote="exydev-slsi-omx"/>
+  <project name="vendor_samsung_starlte-V2" path="vendor/samsung/starlte" remote="exydev"/>
+  <project name="vendor_samsung_star2lte-V2" path="vendor/samsung/star2lte" remote="exydev"/>
+  <project name="vendor_samsung_crownlte-V2" path="vendor/samsung/crownlte" remote="exydev"/>
 
   <!-- SLSI -->
-  <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="edsheeran"/>
+  <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="exydev-slsi"/>
   
   <!-- Kernel -->
-  <project name="kernel_samsung_exynos9810-V2" path="kernel/samsung/exynos9810" remote="edsheeran"/>
+  <project name="kernel_samsung_exynos9810-V2" path="kernel/samsung/exynos9810" remote="exydev-slsi-decon"/>
 
 </manifest>

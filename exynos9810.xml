@@ -15,7 +15,7 @@
 
 <remote name="exydev-slsi-decon"
           fetch="https://github.com/samsungexynos9810"
-          revision="thirteen-slsi-decon" />
+          revision="everest-ehmp" />
 
   <!--Device tree-->
   <project name="device_samsung_exynos9810-common-V2" path="device/samsung/exynos9810-common" remote="exydev-slsi-omx"/>

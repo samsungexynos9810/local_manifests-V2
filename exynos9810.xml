@@ -5,6 +5,10 @@
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen" />
 
+<remote name="exydev-hwc3"
+          fetch="https://github.com/samsungexynos9810"
+          revision="thirteen-clean-upstream" />
+
 <remote name="exydev-slsi"
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen-slsi" />
@@ -31,7 +35,7 @@
 
   <!-- SLSI -->
   <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="exydev-slsi"/>
-  <project name="hardware_samsung_slsi" path="hardware/samsung_slsi" remote="exydev"/>
+  <project name="hardware_samsung_slsi" path="hardware/samsung_slsi" remote="exydev-hwc3"/>
   
   <!-- Kernel -->
   <project name="kernel_samsung_exynos9810-V2" path="kernel/samsung/exynos9810" remote="exydev-slsi-decon"/>

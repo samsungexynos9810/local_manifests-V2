@@ -13,7 +13,7 @@
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen-slsi" />
 
-<remote name="exydev-slsi-omx"
+<remote name="fourteen"
           fetch="https://github.com/samsungexynos9810"
           revision="thirteen-slsi-omx" />
 

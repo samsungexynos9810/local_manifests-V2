@@ -11,7 +11,7 @@
 
 <remote name="exydev-slsi"
           fetch="https://github.com/samsungexynos9810"
-          revision="thirteen-slsi" />
+          revision="fourteen" />
 
 <remote name="exydev-slsi-omx"
           fetch="https://github.com/samsungexynos9810"

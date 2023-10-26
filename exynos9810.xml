@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="exydev-hwc3"
+<remote name="exydev-fourteen-v2"
           fetch="https://github.com/samsungexynos9810"
-          revision="thirteen-clean-upstream" />
+          revision="fourteen-v2" />
 
 <remote name="exydev-thirteen"
           fetch="https://github.com/samsungexynos9810"
@@ -15,10 +15,10 @@
 
 <remote name="exydev-slsi-decon"
           fetch="https://github.com/samsungexynos9810"
-          revision="everest-up1a" />
+          revision="everest-up1a-v2" />
 
   <!--Device tree-->
-  <project name="device_samsung_exynos9810-common-V2" path="device/samsung/exynos9810-common" remote="exydev-fourteen"/>
+  <project name="device_samsung_exynos9810-common-V2" path="device/samsung/exynos9810-common" remote="exydev-fourteen-v2"/>
   <project name="device_samsung_starlte-V2" path="device/samsung/starlte" remote="exydev-thirteen"/>
   <project name="device_samsung_star2lte-V2" path="device/samsung/star2lte" remote="exydev-thirteen"/>
   <project name="device_samsung_crownlte-V2" path="device/samsung/crownlte" remote="exydev-thirteen"/>
@@ -31,7 +31,7 @@
 
   <!-- SLSI -->
   <project name="device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="exydev-fourteen"/>
-  <project name="hardware_samsung_slsi" path="hardware/samsung_slsi" remote="exydev-hwc3"/>
+  <project name="hardware_samsung_slsi" path="hardware/samsung_slsi" remote="exydev-fourteen-v2"/>
   
   <!-- Kernel -->
   <project name="kernel_samsung_exynos9810-V2" path="kernel/samsung/exynos9810" remote="exydev-slsi-decon"/>
